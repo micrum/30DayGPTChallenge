@@ -10,12 +10,16 @@ body {
     flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header {
     background-color: #4CAF50;
     color: white;
     padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .content {
