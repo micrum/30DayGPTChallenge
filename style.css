@@ -43,7 +43,7 @@ a:hover {
     text-decoration: underline;
 }
 
-button:hover {
+.button:hover {
     background-color: #45a049;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 
-button {
+.button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -75,7 +75,7 @@ button {
     cursor: pointer;
 }
 
-#gpt-challenge {
+#gpt-challenge, #featured {
     background-color: #f0f0f0;
     padding: 20px;
     margin: 20px 0;
