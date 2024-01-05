@@ -82,32 +82,32 @@ p {
     border-radius: 8px;
 }
 
-#gpt-challenge h2 {
+#gpt-challenge h2, #featured h2 {
     color: #333;
     margin-bottom: 15px;
 }
 
-#gpt-challenge p, #gpt-challenge ul {
+#gpt-challenge p, #gpt-challenge ul, #featured p, #featured ul {
     color: #666;
     line-height: 1.6;
 }
 
-#gpt-challenge ul {
-    list-style-type: none; /* Removes default bullets */
-    padding-left: 0; /* Adjusts padding */
+#gpt-challenge ul, #featured ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-#gpt-challenge li {
-    margin-bottom: 10px; /* Space between items */
+#gpt-challenge li, #featured li {
+    margin-bottom: 10px;
 }
 
-#gpt-challenge a {
-    color: #1a0dab; /* Link color */
-    text-decoration: none; /* Removes underline */
+#gpt-challenge a, #featured a {
+    color: #1a0dab;
+    text-decoration: none;
 }
 
-#gpt-challenge a:hover {
-    text-decoration: underline; /* Adds underline on hover */
+#gpt-challenge a:hover, #featured a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Styles */
